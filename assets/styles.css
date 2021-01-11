@@ -6,6 +6,7 @@ body {
 
 #header-nav {
     background-color: #e5e5ff;
+    width: 100%;
 }
 
 .navbar-brand h1 {
@@ -14,14 +15,12 @@ body {
     line-height: .75;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 }
 
 .navbar-toggler {
     position: relative;
     float: right;
-    /* padding: 9px 10px; */
-    /* margin: 8px 15px 8px; */
     background-color: transparent;
     background-image: none;
     border: 1px solid transparent;
@@ -35,7 +34,6 @@ body {
 .navbar-toggler .icon-bar {
     display: block;
     width: 22px;
-    /* height: 2px; */
     border-radius: 1px;
 }
 
@@ -48,7 +46,7 @@ body {
 .navbar-nav {
     margin-top: 10px;
 }
-
+    
 @media (min-width: 992px) {
     .navbar-nav {
         display: none;
@@ -81,3 +79,30 @@ li {
 #sushi {
     background-color: #f2ffe5
 }
+
+h2 {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.menu {
+    background-color: #fff2e5;
+    border: 1px solid grey;
+}
+
+
