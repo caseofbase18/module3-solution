@@ -64,22 +64,6 @@ body {
     font-weight: bold;
 }
 
-li {
-    border: 1px solid grey;
-}
-
-#chicken {
-    background-color: #ffe5ff;
-}
-
-#beef {
-    background-color: #e5ffff;
-}
-    
-#sushi {
-    background-color: #f2ffe5
-}
-
 h2 {
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
